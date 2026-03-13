@@ -21,10 +21,7 @@ include:
   - board: nice_nano
     shield: zmk_cradio_left
     snippet: studio-rpc-usb-uart
-    cmake-args: -DCONFIG_ZMK_BOARD_COMPAT=y  # 新增这行
   - board: nice_nano
     shield: zmk_cradio_right
-    cmake-args: -DCONFIG_ZMK_BOARD_COMPAT=y  # 新增这行
   - board: nice_nano
     shield: settings_reset
-    cmake-args: -DCONFIG_ZMK_BOARD_COMPAT=y  # 新增这行
