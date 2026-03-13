@@ -3,5 +3,3 @@ on: [push, pull_request, workflow_dispatch]
 jobs:
   build:
     uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
-    with:
-      skip-compat-check: true  # 新增这一行，直接跳过兼容性检查
