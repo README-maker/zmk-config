@@ -7,7 +7,7 @@ manifest:
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: v0.6.0  # 把这里从 main 改成 v0.6.0
+      revision: main
       import: app/west.yml
     - name: zmk-behavior-report
       remote: nxtkb
