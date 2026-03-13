@@ -32,7 +32,7 @@ jobs:
         run: west init -l config
 
       - name: West update
-        run: west update --narrow --fetch-depth=1
+        run: west update --narrow
 
       - name: West Zephyr export
         run: west zephyr-export
