@@ -20,10 +20,10 @@
 include:
   # keyboard: cradio sweep
   - board: nice_nano
-    shield: cradio_left
+    shield: zmk_cradio_left
     snippet: studio-rpc-usb-uart
     #snippet: zmk-usb-logging
   - board: nice_nano
-    shield: cradio_right
+    shield: zmk_cradio_right
   - board: nice_nano
     shield: settings_reset
